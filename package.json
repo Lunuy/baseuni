@@ -1,6 +1,6 @@
 {
   "name": "baseuni",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Covert buffer to unicode string. Base1048576.",
   "main": "./dist/index.js",
   "directories": {
