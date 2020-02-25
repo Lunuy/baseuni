@@ -1,0 +1,39 @@
+{
+  "name": "baseuni",
+  "version": "1.0.0",
+  "description": "Covert buffer to unicode string. Base1048576.",
+  "main": "./dist/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "watch": "webpack --mode=development --watch --config webpack.config.js",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lunuy/baseuni.git"
+  },
+  "keywords": [
+    "Buffer",
+    "base",
+    "encode",
+    "decode",
+    "string",
+    "convert"
+  ],
+  "author": "Lunuy",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Lunuy/baseuni/issues"
+  },
+  "homepage": "https://github.com/Lunuy/baseuni#readme"
+}
